@@ -1,9 +1,18 @@
 import React from 'react'
 import './app.css';
+import Home from './components/Home/Home';
+import Navbar from './components/Navbar/Navbar';
+import Main from './components/Main/Main';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
-    <h2>App</h2>
+    <>
+      <Navbar/>
+      <Home/>
+      <Main/>
+      <Footer/>
+    </>
   )
 }
 
